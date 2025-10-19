@@ -24,11 +24,11 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpeg"
+  avatar           : "Sujan.jpg"
   name             : "Sujan Kumar Saha"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "1889 Museum Road, Gainesville, Florida, 32611"
+  location         : "Malachowsky Hall, Room#3300"
   employer         : "University of Florida"
   uri              : # URL
   email            : "sujansaha@ufl.edu" 
