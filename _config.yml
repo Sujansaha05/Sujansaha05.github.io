@@ -27,8 +27,8 @@ author:
   avatar           : "sujan.png"
   name             : "Sujan Saha"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Malachowsky Hall, MH3300"
+  bio              : "Post-doctoral Associate"
+  location         : "MH3300, Malachowsky Hall"
   employer         : "University of Florida"
   uri              : # URL
   email            : "sujansaha@ufl.edu" 
@@ -310,6 +310,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-scholar
   - jemoji
 
 # Mimic GitHub Pages with --safe

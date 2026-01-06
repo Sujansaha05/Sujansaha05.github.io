@@ -8,26 +8,35 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Home"
+    url: /about_sujan/ 
+  
+  - title: "Research"
+    url: /research/ 
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Publications"
+    url: /publications_sujan/    
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching_sujan/    
     
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
+  #- title: "Portfolio"
+  #  url: /portfolio/
+
+  - title: "Services"
+    url: /services_sujan/
+
+  #- title: "Blog Posts"
+  #  url: /year-archive/
     
   - title: "CV"
     url: /cv/
     
   # - title: "CV"
   #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+
+  - title: "Contact"
+    url: /contact/
+
+  #- title: "Guide"
+  #  url: /markdown/
