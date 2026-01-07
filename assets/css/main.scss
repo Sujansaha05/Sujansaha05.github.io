@@ -61,3 +61,39 @@
   margin-bottom: 0.6em;
 }
 
+.teaching-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.teaching-item {
+  /* margin-bottom: 1.5em;*/
+  margin-bottom: 48px;
+}
+
+.teaching-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.school-logo {
+  width: 72px;
+  height: auto;
+}
+
+.teaching-role {
+  font-size: 0.95em;
+}
+
+.teaching-term {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.teaching-desc {
+  margin-top: 6px;
+  font-size: 0.95em;
+  line-height: 1.45;
+}
+
