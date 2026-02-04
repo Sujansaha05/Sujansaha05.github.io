@@ -237,4 +237,24 @@
     /* border: 1px solid #ccc; /* Optional: adds a border for visibility */
 }
 
+.image-container-llm {
+    display: flex; /* Activates flexbox layout */
+    justify-content: left; /* Centers images within the container */
+    gap: 0px; /* Adds space between images */
+}
 
+.custom-img-llm-1 {
+    width: 400px;  /* Set custom width */
+    height: 220px; /* Set custom height */
+    object-fit: contain; /* Ensures images cover the area without stretching */
+    /*margin-right: 2%;
+    /* border: 1px solid #ccc; /* Optional: adds a border for visibility */
+}
+
+.custom-img-llm-2 {
+    width: 550px;  /* Set custom width */
+    height: 200px; /* Set custom height */
+    object-fit: contain; /* Ensures images cover the area without stretching */
+    /*margin-right: 2%;
+    /* border: 1px solid #ccc; /* Optional: adds a border for visibility */
+}
