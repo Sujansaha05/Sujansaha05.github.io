@@ -97,3 +97,144 @@
   line-height: 1.45;
 }
 
+.project-figure {
+  display: block;
+  max-width: 100%;
+  width: 600px;          /* adjust: 400–600px */
+  margin: 10px auto 12px auto;
+  border-radius: 6px;
+}
+
+.side-by-side {
+    float: left;        /* Floats the images to the left */
+    width: 30%;         /* Sets a width for each image */
+    margin-right: 2%;   /* Adds space between images */
+    box-sizing: border-box; /* Ensures padding/border are included in width calculation */
+}
+
+.sponsors-container {
+    display: flex; /* Enables Flexbox */
+    justify-content: space-between; /* Spreads logos evenly */
+    align-items: center; /* Centers logos vertically */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    gap: 10px; /* Space between logos */
+    padding: 10px;
+}
+
+.sponsor-logo {
+    max-height: 60px; /* Keeps all logos a consistent height */
+    width: auto; /* Maintains aspect ratio */
+    /*filter: grayscale(100%);  Optional: for a cleaner, muted look */
+    /*opacity: 0.7;
+    transition: 0.3s;*/
+}
+
+.sponsor-logo:hover {
+    /* filter: grayscale(0%); /* Optional: color on hover */
+    opacity: 1;
+}
+
+.image-container-ai {
+    display: flex; /* Activates flexbox layout */
+    justify-content: center; /* Centers images within the container */
+    gap: 10px; /* Adds space between images */
+}
+
+.custom-img-ai {
+    width: 200px;  /* Set custom width */
+    height: 150px; /* Set custom height */
+    object-fit: cover; /* Ensures images cover the area without stretching */
+    border: 1px solid #ccc; /* Optional: adds a border for visibility */
+}
+
+.image-container-soc {
+    display: flex; /* Activates flexbox layout */
+    justify-content: center; /* Centers images within the container */
+    gap: 10px; /* Adds space between images */
+}
+
+.custom-img-soc {
+    width: 200px;  /* Set custom width */
+    height: 150px; /* Set custom height */
+    object-fit: cover; /* Ensures images cover the area without stretching */
+    border: 1px solid #ccc; /* Optional: adds a border for visibility */
+}
+
+.image-container-rot {
+    display: flex; /* Activates flexbox layout */
+    justify-content: left; /* Centers images within the container */
+    gap: 0px; /* Adds space between images */
+}
+
+.custom-img-rot-1 {
+    width: 600px;  /* Set custom width */
+    height: 180px; /* Set custom height */
+    object-fit: contain; /* Ensures images cover the area without stretching */
+    /*border: 1px solid #ccc; /* Optional: adds a border for visibility */
+}
+
+.custom-img-rot-2 {
+    width: 400px;  /* Set custom width */
+    height: 190px; /* Set custom height */
+    object-fit: contain; /* Ensures images cover the area without stretching */
+    /*border: 1px solid #ccc; /* Optional: adds a border for visibility */
+}
+
+.image-container-fpga {
+    display: flex; /* Activates flexbox layout */
+    justify-content: left; /* Centers images within the container */
+    gap: 0px; /* Adds space between images */
+}
+
+.custom-img-fpga-1 {
+    width: 420px;  /* Set custom width */
+    height: 180px; /* Set custom height */
+    object-fit: contain; /* Ensures images cover the area without stretching */
+    /*border: 1px solid #ccc; /* Optional: adds a border for visibility */
+}
+
+.custom-img-fpga-2 {
+    width: 250px;  /* Set custom width */
+    height: 180px; /* Set custom height */
+    object-fit: contain; /* Ensures images cover the area without stretching */
+    /*border: 1px solid #ccc; /* Optional: adds a border for visibility */
+}
+
+.custom-img-fpga-3 {
+    width: 250px;  /* Set custom width */
+    height: 180px; /* Set custom height */
+    object-fit: contain; /* Ensures images cover the area without stretching */
+    /*border: 1px solid #ccc; /* Optional: adds a border for visibility */
+}
+
+.image-container-gpu {
+    display: flex; /* Activates flexbox layout */
+    justify-content: left; /* Centers images within the container */
+    gap: 0px; /* Adds space between images */
+}
+
+.custom-img-gpu-1 {
+    width: 350px;  /* Set custom width */
+    height: 180px; /* Set custom height */
+    object-fit: contain; /* Ensures images cover the area without stretching */
+    /*margin-right: 2%;
+    /* border: 1px solid #ccc; /* Optional: adds a border for visibility */
+}
+
+.custom-img-gpu-2 {
+    width: 280px;  /* Set custom width */
+    height: 180px; /* Set custom height */
+    object-fit: contain; /* Ensures images cover the area without stretching */
+    /*margin-right: 2%;
+    /* border: 1px solid #ccc; /* Optional: adds a border for visibility */
+}
+
+.custom-img-gpu-3 {
+    width: 300px;  /* Set custom width */
+    height: 180px; /* Set custom height */
+    object-fit: contain; /* Ensures images cover the area without stretching */
+    /*margin-right: 2%;
+    /* border: 1px solid #ccc; /* Optional: adds a border for visibility */
+}
+
+

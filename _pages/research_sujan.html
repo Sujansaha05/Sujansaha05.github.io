@@ -1,0 +1,234 @@
+---
+layout: archive
+title: "Research Projects"
+permalink: /research_sujan/
+author_profile: true
+---
+
+{% include base_path %}
+
+<!--
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}-->
+
+<!--<h2>Current Projects</h2>-->
+
+<div class="research-item">
+  <h2 class="project-title">
+    AI/LLM in System-on-Chip Security (Ongoing)
+  </h2>
+
+  <p class="project-desc">
+    As modern System-on-Chip (SoC) designs grow in scale and heterogeneity, ensuring security across the design and verification lifecycle 
+    has become increasingly complex. Manual security analysis struggles to keep pace with the growing RTL codebases, diverse threat models, 
+    and evolving attack surfaces. This project explores how AI and Large Language Models (LLMs) can systematically augment SoC security 
+    workflows by acting as intelligent reasoning and automation engines. Specifically, the research focuses on: (1) AI-assisted asset 
+    identification and threat modeling, (2) automated vulnerability detection and classification across RTL designs, (3) security property 
+    synthesis for formal verification, and (4) LLM-driven testbench and validation plan generation. To enable these capabilities, we leverage 
+    advanced prompting strategies, Retrieval-Augmented Generation (RAG), fine-tuning of open-source LLMs, and multi-agent architectures, 
+    where specialized AI agents collaboratively reason about complex hardware security tasks. The project also addresses key scalability 
+    challenges by partitioning large RTL designs into semantically coherent modules, enabling efficient analysis of industrial-scale SoCs. 
+    Collectively, this work establishes a new paradigm for AI-integrated, high-fidelity SoC security verification, bridging the gap between 
+    emerging LLM capabilities and trusted hardware design.
+  </p>
+
+  <img src="/images/SV-LLM.png"
+       alt="Security Verification LLM framework"
+       class="project-figure">
+
+  <p class="project-links">
+    Publications: 
+    <span class="links">
+    [
+    <a href="https://www.deep-chip.org/" target="_blank">Deep-Chip</a>
+     |
+    <a href="https://arxiv.org/pdf/2506.20415" target="_blank">SV-LLM</a>
+    |
+    <a href="https://arxiv.org/pdf/2507.13369" target="_blank">VerilogDB</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/11189213" target="_blank">MLCAD 2025</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/10596266" target="_blank">IEEE Access 2024</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/11050068" target="_blank">HOST 2025</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/11022958" target="_blank">VTS 2025</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/10767831" target="_blank">VLSI-SoC 2024</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/10545393" target="_blank">HOST 2024</a>
+     |
+    <a href="https://dl.acm.org/doi/abs/10.1145/3670474.3685967" target="_blank">MLCAD 2024</a>
+    ]
+  </span>
+  </p>
+</div>
+
+
+<div class="research-item">
+  <h2 class="project-title">
+    System-on-Chip Security verification (Ongoing)
+  </h2>
+
+  <p class="project-desc">
+    Modern System-on-Chip (SoC) platforms face growing security risks from vulnerabilities introduced during design and implementation, 
+    making pre-silicon security verification essential for preventing downstream attacks. This project advances systematic SoC security 
+    verification methodologies for early vulnerability detection, including hardware fuzzing and penetration testing, fault injection–based 
+    assessment, security property–driven verification, and emulation-assisted validation. To support realistic evaluation, we develop 
+    SoC-scale vulnerable benchmarks that capture complex, real-world security flaws. To overcome the scalability limits of simulation-based 
+    techniques, the project leverages hardware emulation to enable near real-time security verification with deep system-level visibility, 
+    bridging the gap between academic security analysis and industrial SoC validation workflows.
+  </p>
+
+  <img src="/images/Holistic_Verification.png" alt="holistic verification" class="side-by-side">
+  <img src="/images/Emulation.png" alt="hardware emulator" class="side-by-side">
+  <img src="/images/Fuzzing.png" alt="Fuzzing" class="side-by-side">
+  <!-- Clear the float after the images -->
+  <div style="clear: both;"></div>
+
+  <p class="project-links">
+    Publications: 
+    <span class="links">
+    [
+    <a href="https://ieeexplore.ieee.org/abstract/document/10973295" target="_blank">IEEE D&T 2025</a>
+     |
+    <a href="/assets/slides/ASP_DAC26_GEmFuzz.pdf" target="_blank">ASP-DAC 2026</a>
+     |
+    <a href="/assets/slides/VLSI_SoC_EmFIA_Paper.pdf" target="_blank">VLSI-SOC 2025</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/10792811" target="_blank">PAINE 2024</a>
+    ]
+  </span>
+  </p>
+</div>
+
+<div class="research-item">
+  <h2 class="project-title">
+    Root-of-Trust Subsystem based access control in SoC (Past Project)
+  </h2>
+
+  <p class="project-desc">
+    Trusted System-on-Chip (SoC) operation requires hardware-enforced access control anchored in a robust root-of-trust (RoT) subsystem. 
+    This project investigates the design of SoC-level access control architectures that elevate traditional software-based Mandatory Access 
+    Control (MAC) policies into hardware, enabling fine-grained, tamper-resistant enforcement across heterogeneous IP blocks. The research 
+    introduces distributed hardware firewalls and a centralized security policy engine, forming the basis of a scalable RoT subsystem that 
+    enforces system-wide security guarantees. Building on this foundation, the project develops an open-source security engine integrating 
+    a RISC-V security co-processor, cryptographic accelerators, and lifecycle management primitives to support secure boot, isolation, and 
+    controlled resource access. To ensure rigorous validation and practical relevance, the work also advances system-level security 
+    evaluation methodologies, including CVSS-inspired risk assessment and quantitative leakage detection metrics for hardware IPs. 
+    Collectively, this project bridges hardware security architecture, enforcement, and evaluation, delivering deployable root-of-trust 
+    solutions for modern SoC platforms.
+  </p>
+
+  <div class="image-container-fpga">
+    <img src="/images/RoT_access_control.png" alt="RoT access control" class="custom-img-rot-1">
+    <img src="/images/metric_ip.png" alt="ip level metric" class="custom-img-rot-2">
+  </div>
+
+  <p class="project-links">
+    Publications: 
+    <span class="links">
+    [
+    <a href="https://github.com/mashahedurrahman/Security-Engine" target="_blank">FTR-SE</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/10818135" target="_blank">ICCD 2024</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/10416100" target="_blank">FPT 2023</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/9839854" target="_blank">HOST 2022</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/9358258" target="_blank">AsianHOST 2020</a>
+    ]
+  </span>
+  </p>
+</div>
+
+<div class="research-item">
+  <h2 class="project-title">
+    Multi-tenant Cloud FPGA Security (Past Project)
+  </h2>
+
+  <p class="project-desc">
+    The adoption of multi-tenant cloud FPGAs introduces new security challenges as mutually untrusted users share reconfigurable hardware 
+    resources in data center environments. This project investigates security architectures for cloud FPGA virtualization, focusing on strong 
+    isolation, controlled resource sharing, and policy-driven enforcement across tenants. The research introduces a mesh-style FPGA 
+    virtualization framework, inspired by network-on-chip principles, that enables scalable partitioning and secure communication among 
+    tenant regions. Building on this architecture, the project develops hardware-enforced isolation mechanisms with dynamic security policies, 
+    preventing cross-tenant interference and information leakage while preserving performance and flexibility. Together, this work advances 
+    the foundations of secure, multi-tenant reconfigurable computing, supporting trustworthy deployment of FPGAs in cloud and data center 
+    infrastructures.
+  </p>
+
+  <div class="image-container-fpga">
+    <img src="/images/architectureModels.png" alt="FPGA virtualization" class="custom-img-fpga-1">
+    <img src="/images/architecture.png" alt="mesh FPGA" class="custom-img-fpga-2">
+    <img src="/images/HMAC_architecture.png" alt="hmac architecture" class="custom-img-fpga-3">
+  </div>
+  <!-- Clear the float after the images -->
+  <!--<div style="clear: both;"></div> -->
+  
+
+  <p class="project-links">
+    Publications: 
+    <span class="links">
+    [
+    <a href="https://dl.acm.org/doi/full/10.1145/3713078" target="_blank">TRETS 2025</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/10152167" target="_blank">WF-IoT 2022</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/9516750" target="_blank">ISVLSI 2021</a>
+     |
+    <a href="https://dl.acm.org/doi/abs/10.1145/3453688.3461527" target="_blank">GLSVLSI 2021</a>
+     |
+    <a href="https://ieeexplore.ieee.org/abstract/document/9460664" target="_blank">IPDPSW 2021</a>
+    ]
+  </span>
+  </p>
+</div>
+
+<div class="research-item">
+  <h2 class="project-title">
+    Spatio-temporal GPU Management in Real-time Systems (Past Project)
+  </h2>
+
+  <p class="project-desc">
+    Graphics Processing Units (GPUs) are increasingly integrated into embedded platforms to meet the computational demands of real-time, 
+    data-intensive applications, yet existing GPU management approaches either underutilize available resources or introduce non-deterministic 
+    delays due to uncontrolled concurrency. This project addresses these challenges through a spatio-temporal GPU management framework that 
+    enables predictable and efficient GPU sharing in real-time systems. The framework controls the allocation of internal GPU execution 
+    resources, such as streaming multiprocessors, providing analytical timing bounds for concurrent task execution. By combining spatial 
+    partitioning with temporal scheduling, the approach allows multiple GPU-accelerated tasks to execute simultaneously while preserving 
+    worst-case response time guarantees and strengthening temporal isolation through exclusive resource allocation. Collectively, this work 
+    advances deterministic GPU management for real-time embedded systems, bridging high-performance acceleration with timing predictability.
+  </p>
+
+  <div class="image-container-gpu">
+    <img src="/images/GPU_architecture.png" alt="GPU architecture" class="custom-img-gpu-1">
+    <img src="/images/GPU_scheduling.png" alt="GPU scheduling" class="custom-img-gpu-2">
+    <img src="/images/Schedulability.png" alt="Schedulability" class="custom-img-gpu-3">
+  </div>
+  <!-- Clear the float after the images -->
+  <!-- <div style="clear: both;"></div> -->
+  
+
+  <p class="project-links">
+    Publications: 
+    <span class="links">
+    [
+    <a href="https://ieeexplore.ieee.org/abstract/document/8864564" target="_blank">RTCSA 2019</a>
+    ]
+  </span>
+  </p>
+</div>
+
+<h1>Project Sponsors</h1>
+
+<div class="sponsors-container">
+    <img src="/images/NSF_Official_logo.png" alt="NSF" class="sponsor-logo">
+    <img src="/images/DARPA_Logo.png" alt="DARPA" class="sponsor-logo">
+    <img src="/images/AFRL_Logo.png" alt="AFRL" class="sponsor-logo">
+    <img src="/images/DURIP-logo.png" alt="DURIP ONR" class="sponsor-logo">
+    <img src="/images/Synopsys_Logo.png" alt="Synopsys" class="sponsor-logo">
+    <img src="/images/SRC_logo.png" alt="SRC" class="sponsor-logo">
+</div>
