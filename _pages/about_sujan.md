@@ -18,6 +18,7 @@ His scholarly contributions include a book chapter, a pending patent, and more t
 
 ## News
 
+- **April 2026:** Invited to give a talk at [IEEE Young Professional Events](https://yp.ieee.org/event/invited-talk-on-hardware-emulation-based-security-verification/) hosted by Florida Atlantic University([FAU](https://www.fau.edu/))
 - **February 2026:** Invited to serve as a Technical Program Committee (TPC) member for [GLSVLSI 2026](https://www.glsvlsi.org/).
 - **January 2026:** Invited to give a talk at the [MEST Center monthly webinar](https://mestcenter.org/trainings-schedule/webinars/).
 - **November 2025:** Our Security Asset Identification paper was accepted as a regular paper at [DATE 2026](https://www.date-conference.com)!
