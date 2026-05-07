@@ -18,6 +18,7 @@ His scholarly contributions include a book chapter, a pending patent, and more t
 
 ## News
 
+- **May 2026:** I will be joining as a Tenure-Track Assistant Professor at [ECE Department, Auburn University](https://eng.auburn.edu/ece/).  
 - **April 2026:** Invited to give a talk at [IEEE Young Professional Events](https://yp.ieee.org/event/invited-talk-on-hardware-emulation-based-security-verification/) hosted by Florida Atlantic University ([FAU](https://www.fau.edu/)).
 - **February 2026:** Invited to serve as a Technical Program Committee (TPC) member for [GLSVLSI 2026](https://www.glsvlsi.org/).
 - **January 2026:** Invited to give a talk at the [MEST Center monthly webinar](https://mestcenter.org/trainings-schedule/webinars/).
