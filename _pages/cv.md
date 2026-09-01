@@ -21,7 +21,7 @@ Work experience
 ======
 **Post-Doctoral Associate**  
 *FICS Research, Department of Electrical and Computer Engineering, University of Florida*  
-August 2023 – Present\
+August 2023 – July 2026\
 Gainesville, FL, USA  
 **Advisors:** Dr. Mark Tehranipoor, Dr. Farimah Farahmandi  
 

@@ -6,7 +6,7 @@ redirect_from:
   - /Home/
   - /about_sujan/
 ---
-Sujan Saha is a Post-doctoral Associate in the Department of Electrical and Computer Engineering [(ECE)](https://www.ece.ufl.edu/) at the University of Florida [(UF)](https://www.ufl.edu/), working under the supervision of Prof. Mark Tehranipoor and Professor Farimah Farahmandi in the Florida Institute of Cybersecurity [(FICS)](https://fics.institute.ufl.edu/) Lab. He received his Ph.D. in Electrical and Computer Engineering from UF in 2023. He earned his M.Sc. in Computer Engineering from the University of California, Riverside [(UCR)](https://www.ucr.edu/), and his B.Sc. in Electrical and Electronic Engineering from the Bangladesh University of Engineering and Technology [(BUET)](https://www.buet.ac.bd/web/#/). His research interests include the following topics:
+Sujan Saha is an Assistant Professor in the Electrical and Computer Engineering Department [(ECE)](https://eng.auburn.edu/ece/) at Auburn University [(AU)](https://www.auburn.edu/). Before joining AU, he was a Post-doctoral Associate in the Department of Electrical and Computer Engineering [(ECE)](https://www.ece.ufl.edu/) at the University of Florida [(UF)](https://www.ufl.edu/), working under the supervision of Prof. Mark Tehranipoor and Professor Farimah Farahmandi in the Florida Institute of Cybersecurity [(FICS)](https://fics.institute.ufl.edu/) Lab. He received his Ph.D. in Electrical and Computer Engineering from UF in 2023. He earned his M.Sc. in Computer Engineering from the University of California, Riverside [(UCR)](https://www.ucr.edu/), and his B.Sc. in Electrical and Electronic Engineering from the Bangladesh University of Engineering and Technology [(BUET)](https://www.buet.ac.bd/web/#/). His research interests include the following topics:
 
 - AI/LLM in System-on-Chip (SoC) Design and Security
 - Hardware Assisted SoC Security Verification
@@ -18,6 +18,7 @@ His scholarly contributions include a book chapter, a pending patent, and more t
 
 ## News
 
+- **August 2026:** Started working at [ECE, Auburn University](https://eng.auburn.edu/ece/). 
 - **May 2026:** I will be joining as a Tenure-Track Assistant Professor at [ECE Department, Auburn University](https://eng.auburn.edu/ece/).  
 - **April 2026:** Invited to give a talk at [IEEE Young Professional Events](https://yp.ieee.org/event/invited-talk-on-hardware-emulation-based-security-verification/) hosted by Florida Atlantic University ([FAU](https://www.fau.edu/)).
 - **February 2026:** Invited to serve as a Technical Program Committee (TPC) member for [GLSVLSI 2026](https://www.glsvlsi.org/).
